@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
 
-        int balance = 900;
-        int refill = 1100;
+        int balance = 100;
+        int refill = 300;
 
         int bonus = 0;
         if (refill > 1000) {
@@ -14,7 +14,11 @@ public class Main {
             System.out.println("Ваш бонус составил " + bonus + " руб.");
             System.out.println("Ваш баланс " + total + "руб.");
 
+
+        } else {
+            System.out.println("Сумма пополнения должна быть более 1000 руб.");
         }
+
 
     }
 }
